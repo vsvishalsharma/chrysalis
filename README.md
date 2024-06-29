@@ -1,6 +1,6 @@
 # Cryshalis
 
-Cryshalis is a collaborative whiteboard application inspired by Miro, with an integrated video call feature to enhance team collaboration and communication. Built with modern web technologies, Cryshalis aims to provide a seamless and interactive user experience for brainstorming, planning, and visual collaboration.
+Cryshalis is a collaborative whiteboard , with an integrated video call feature to enhance team collaboration and communication. Built with modern web technologies, Cryshalis aims to provide a seamless and interactive user experience for brainstorming, planning, and visual collaboration.
 
 ## Features
 
@@ -15,7 +15,7 @@ Cryshalis is a collaborative whiteboard application inspired by Miro, with an in
 ## Tech Stack
 
 - **Frontend**: React, Next.js
-- **Backend**: Node.js, Express (if applicable)
+- **Backend**: Node.js, Express
 - **Authentication**: Clerk
 - **Real-time Data**: Convex
 - **Video Calls**: WebRTC
