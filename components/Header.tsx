@@ -23,25 +23,36 @@ const Header = () => {
           <li className="hover:text-blue-400 transition-colors duration-300">Real Time Chat wth Team</li>
         </ul>
         <div className="flex w-full max-w-sm items-center space-x-2 mt-3">
-          <Input type="email" placeholder="email" className="bg-gray-700 text-white" />
+          <Input type="email" placeholder="Email" className="bg-gray-700 text-white" />
           <Button type="submit" className="bg-blue-700 text-white hover:bg-blue-800 transition-colors duration-300">
             Sign up - it's free!
           </Button>
         </div>
       </div>
       <div className="relative">
-        <img src="/header_img.jpg" alt="CollabHub" />
-        <img
-          src="/github_logo.png"
-          alt="GitHub"
-          className="absolute bottom-0 left-9 m-4 rounded-full object-cover transform rotate-12"
-          style={{ 
-            height: '200px', 
-            width: '200px',
-            transformOrigin: 'center center'
-          }}
-        />
-      </div>
+  <img src="/header_img.jpg" alt="CollabHub" />
+  <img 
+    src="/chat.png" 
+    alt="Chat"
+    className="absolute bottom-0 left-40 rounded-full object-cover"
+    style={{
+      height: '200px',
+      width: '200px',
+      zIndex: 1
+    }}
+  />
+  <img
+    src="/github_logo.png"
+    alt="GitHub"
+    className="absolute bottom-0 left-4 m-4 rounded-full object-cover transform rotate-12"
+    style={{ 
+      height: '200px', 
+      width: '200px',
+      transformOrigin: 'center center',
+      zIndex: 2
+    }}
+  />
+</div>
     </div>
   );
 };

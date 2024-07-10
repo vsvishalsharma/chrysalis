@@ -15,7 +15,7 @@ const Navbar = () => {
         {status !== "authenticated" ? (
          <Link
          href="/login"
-         className="text-sm font-semibold leading-6 text-gray-300 hover:text-white transition-colors duration-300 hover:bg-blue-500 hover:text-white p-2 rounded"
+         className="text-sm font-semibold leading-6 text-gray-300 hover:text-white transition-colors duration-300 bg-blue-500  p-2 rounded"
        >
          Log in
        </Link>

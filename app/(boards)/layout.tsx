@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 const boardlayout=({children}:{children:React.ReactNode})=>{
@@ -5,6 +6,7 @@ const boardlayout=({children}:{children:React.ReactNode})=>{
         <div>
             <Navbar/>
             {children}
+            <Footer/>
         </div>
         
     )
