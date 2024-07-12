@@ -11,9 +11,9 @@ import { workflowList } from "@/lib/productivity-data";
 import { Button } from "./ui/button";
 
 
-export function Slider() {
+export default function Slider() {
   return (
-    <div className="px-[10%] py-16  bg-gray-700 relative">
+    <div className="px-[10%] py-16  bg-gray-800 relative">
       <Carousel
         opts={{
           align: "start",
@@ -23,7 +23,7 @@ export function Slider() {
         <CarouselContent>
           {workflowList.map((item, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
-              <div className="bg-gray-800 text-white rounded-md h-64">
+              <div className="bg-gray-900 text-white rounded-md h-64">
                 <div
                   className={`h-10 w-full ${item.color} rounded-t-md relative`}
                 >
@@ -45,7 +45,7 @@ export function Slider() {
         <CarouselNext className="absolute right-0 top-[-25px] bg-slate-300" />
       </Carousel>
       <div className="flex flex-col lg:flex-row justify-between items-center mb-8 mt-10">
-        <p className="text-center text-white lg:text-start mb-2 text-lg w-full lg:w-2/3">
+        <p className="text-center text-white lg:text-start mt-10 text-lg w-full lg:w-2/3">
           No need to start from scratch. Jump-start your workflow with a proven
           playbook designed for different teams. Customize it to make it yours.
         </p>

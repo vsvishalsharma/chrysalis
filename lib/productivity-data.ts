@@ -31,13 +31,13 @@ export const productiveList = [
     },
     {
       title: "Onboarding",
-      desc: "Onboarding to a new company or project is a snap with Trello’s visual layout of to-do’s, resources, and progress tracking.",
+      desc: "Onboarding to a new company or project is a snap with CollabHub visual layout of to-do’s, resources, and progress tracking.",
       img: "/workflow_3.png",
       color: "bg-[#57d9a3]",
     },
     {
       title: "Task management",
-      desc: "Use Trello to track, manage, complete, and bring tasks together like the pieces of a puzzle, and make your team’s projects a cohesive success every time.",
+      desc: "Use Tools to track, manage, complete, and bring tasks together like the pieces of a puzzle, and make your team’s projects a cohesive success every time.",
       img: "/workflow_4.png",
       color: "bg-[#ffc400]",
     },

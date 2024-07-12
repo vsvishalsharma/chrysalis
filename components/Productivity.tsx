@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Productivity = () => {
   const [itemIndex, setItemIndex] = useState(0);
   return (
-    <div className="px-[10%] bg-gradient-to-b from-gray-800 to-gray-700 text-white">
+    <div className="px-[10%] bg-gray-800 text-white">
       <p className="text-primary text-white">Collabhub 101</p>
       <h1 className="font-semibold text-4xl">A productivity powerhouse</h1>
       <p className="w-full lg:w-1/2 text-xl my-5 text-gray-300">

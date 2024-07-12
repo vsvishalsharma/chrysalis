@@ -30,28 +30,28 @@ const Header = () => {
         </div>
       </div>
       <div className="relative">
-  <img src="/header_img.jpg" alt="CollabHub" />
-  <img 
-    src="/chat.png" 
-    alt="Chat"
-    className="absolute bottom-0 left-40 rounded-full object-cover"
-    style={{
-      height: '200px',
-      width: '200px',
-      zIndex: 1
-    }}
-  />
-  <img
-    src="/github_logo.png"
-    alt="GitHub"
-    className="absolute bottom-0 left-4 m-4 rounded-full object-cover transform rotate-12"
-    style={{ 
-      height: '200px', 
-      width: '200px',
-      transformOrigin: 'center center',
-      zIndex: 2
-    }}
-  />
+        <img src="/header_img.jpg" alt="CollabHub" />
+        <img 
+          src="/chat.png" 
+          alt="Chat"
+          className="absolute bottom-0 left-40 rounded-full object-cover"
+          style={{
+            height: '200px',
+            width: '200px',
+            zIndex: 1
+          }}
+        />
+        <img
+          src="/github_logo.png"
+          alt="GitHub"
+          className="absolute bottom-0 left-4 m-4 rounded-full object-cover transform rotate-12"
+          style={{ 
+            height: '200px', 
+            width: '200px',
+            transformOrigin: 'center center',
+            zIndex: 2
+          }}
+        />
 </div>
     </div>
   );
