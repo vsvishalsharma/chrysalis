@@ -6,7 +6,7 @@ import AuthProvider from '@/providers/AuthProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'CollabHub',
+  title: 'Chrysalis',
   description: 'Manage your Project like Never Before',
 }
 

@@ -3,7 +3,7 @@ import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
-import HoverBorderGradient from "@/components/ui/hover-border-gradient";
+//import HoverBorderGradient from "@/components/ui/hover-border-gradient";
 const Login = () => {
   const router = useRouter();
   const { status } = useSession();
@@ -16,7 +16,7 @@ const Login = () => {
     <div className="grid place-content-center h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
       
       <div className="flex flex-col justify-center gap-5 items-center h-auto w-[400px] bg-gray-800 shadow-lg rounded-lg p-10">
-        <img src="/logo.jpg" className="h-16 w-auto mb-4" alt="Logo" />
+        <img src="/logo.png" className="h-16 w-auto mb-4 rounded-full" alt="Logo" />
         <p className="text-lg font-semibold mb-2">Log in to continue</p>
         <p className="text-sm text-gray-400 mb-8 text-center">
           Sign in to manage your projects with ease.

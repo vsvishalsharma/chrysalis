@@ -1,12 +1,12 @@
 export const productiveList = [
     {
       title: "Boards",
-      desc: "Trello boards keep tasks organized and work moving forward. In a glance, see everything from “things to do” to “aww yeah, we did it!”",
+      desc: "Kanban boards keep tasks organized and work moving forward. In a glance, see everything from “things to do” to “aww yeah, we did it!”",
       img: "/productive_1.jpg",
     },
     {
       title: "Lists",
-      desc: "The different stages of a task. Start as simple as To Do, Doing or Done—or build a workflow custom fit to your team’s needs. There’s no wrong way to Trello.",
+      desc: "The different stages of a task. Start as simple as To Do, Doing or Done—or build a workflow custom fit to your team’s needs. There’s no wrong way to Chrysalis.",
       img: "/productive_2.jpg",
     },
     {
@@ -19,7 +19,7 @@ export const productiveList = [
   export const workflowList = [
     {
       title: "Project management",
-      desc: "Keep tasks in order, deadlines on track, and team members aligned with CollabHub.Integrate your Github to get real-time updates",
+      desc: "Keep tasks in order, deadlines on track, and team members aligned with Chrysalis.Integrate your Github to get real-time updates",
       img: "/workflow_1.png",
       color: "bg-[#ff7452]",
     },
@@ -31,7 +31,7 @@ export const productiveList = [
     },
     {
       title: "Onboarding",
-      desc: "Onboarding to a new company or project is a snap with CollabHub visual layout of to-do’s, resources, and progress tracking.",
+      desc: "Onboarding to a new company or project is a snap with Chrysalis visual layout of to-do’s, resources, and progress tracking.",
       img: "/workflow_3.png",
       color: "bg-[#57d9a3]",
     },
