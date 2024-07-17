@@ -1,5 +1,5 @@
 import { getServerSession } from "next-auth";
-import GithubProvider from "next-auth/providers/google";
+import GithubProvider from "next-auth/providers/github";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { prismaDB } from "@/providers/connection";
 

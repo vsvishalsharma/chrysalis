@@ -18,7 +18,7 @@ const login = () => {
         <p className="text-md font-bold">Log in to continue</p>
         <div
           className="py-1 px-6 rounded cursor-pointer flex justify-center items-center gap-2 bg-white border-[1px] border-gray-200 font-medium w-5/6"
-          onClick={() => signIn("google")}
+          onClick={() => signIn("github")}
         >
           <img
             className="h-10"
