@@ -25,7 +25,7 @@ const login = () => {
             src="https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg"
             alt=""
           />
-          <span>Sign in with Google</span>
+          <span>Sign in with Github</span>
         </div>
         <Link
           href="/"
