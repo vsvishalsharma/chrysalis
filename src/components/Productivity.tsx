@@ -6,7 +6,7 @@ const Productivity = () => {
   const [itemIndex, setItemIndex] = useState(0);
   return (
     <div className="px-[10%]">
-      <p>TRELLO 101</p>
+     
       <h1 className="font-semibold text-4xl">A productivity powerhouse</h1>
       <p className="w-full lg:w-1/2 text-xl my-5">
         Simple, flexible, and powerful. All it takes are boards, lists, and
