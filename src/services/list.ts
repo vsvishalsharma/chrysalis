@@ -127,11 +127,13 @@ export const listCopy = async (data: { id: string; boardId: string }) => {
                   title: card?.title,
                   description: card.description,
                   order: card.order,
+                  boardId: listtoCopy.boardId, // Add this line
                 })),
               },
             }
           : {},
       },
+      
       include: {
         cards: true,
       },
