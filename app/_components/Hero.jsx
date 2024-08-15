@@ -10,8 +10,8 @@ function Hero() {
         <div>
             <div className="relative pt-36 ml-auto">
                 <div className="lg:w-2/3 text-center mx-auto">
-                    <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Loop is where <span className="text-primary dark:text-white">work happens, in sync.</span></h1>
-                    <p className="mt-8 text-gray-700 dark:text-gray-300">Microsoft Loop is a collaborative workspace that lets teams create, share, and work together on projects seamlessly. It combines flexible pages with reusable components that sync across different apps, making it easy to stay organized and up-to-date.</p>
+                    <h1 className="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Chrysalis is where <span className="text-primary dark:text-white">work happens, in sync.</span></h1>
+                    <p className="mt-8 text-gray-700 dark:text-gray-300">Chrysalis is a collaborative workspace that lets teams create, share, and work together on projects seamlessly. It combines flexible pages with reusable components that sync across different apps, making it easy to stay organized and up-to-date.</p>
                     <div className="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                         <a
                           href="/dashboard"
@@ -34,15 +34,15 @@ function Hero() {
                     <div className="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
                         <div className="text-left">
                             <h6 className="text-lg font-semibold text-gray-700 dark:text-white">The lowest price</h6>
-                            <p className="mt-2 text-gray-500">Some text here</p>
+                            <p className="mt-2 text-gray-500">Chrysalis is free to use for initial five documents</p>
                         </div>
                         <div className="text-left">
                             <h6 className="text-lg font-semibold text-gray-700 dark:text-white">The fastest on the market</h6>
-                            <p className="mt-2 text-gray-500">Some text here</p>
+                            <p className="mt-2 text-gray-500">Chrysalis is one stop solution to enhace productivity</p>
                         </div>
                         <div className="text-left">
                             <h6 className="text-lg font-semibold text-gray-700 dark:text-white">The most loved</h6>
-                            <p className="mt-2 text-gray-500">Some text here</p>
+                            <p className="mt-2 text-gray-500">Its build with love</p>
                         </div>
                     </div>
                 </div>
