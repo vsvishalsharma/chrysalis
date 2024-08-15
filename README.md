@@ -1,6 +1,5 @@
 # Cryshalis
 
-![Cryshalis Logo](https://example.com/cryshalis-logo.png)
 
 ## 🌟 Overview
 
@@ -25,7 +24,7 @@ Harness the power of AI to generate content, saving time and boosting creativity
 Build your team by creating organizations and inviting members via email.
 
 ### 💬 Real-Time Chat
-Communicate instantly with your team using our built-in chat feature.
+Communicate instantly with your team using our built-in chat feature with @mentions emojis and more.
 
 ### 🧠 AI-Based Document Review
 Receive AI-powered feedback and suggestions to enhance document quality and coherence.
@@ -37,15 +36,32 @@ Keep your projects on track with integrated task management, deadlines, and prog
 1. **Fork the repository**
    
 2. **Clone the repository**:
+ ```
    git clone https://github.com/vsvishalsharma/cryshalis.git
-
+```
 3.**Navigate to the project**
+```
     cd cryshalis
-
+```
 4.**Install Dependecies**
+```
      npm i
+```
 5.**Set up .env**
+```
    cp .env.example .env
-
+```
 6.**Run the project**
+```
   npm run dev     
+```
+
+## 🙏 Acknowledgements
+- Microsft Loop for inspiration
+- GeminiAI for AI integration
+- All our Users
+
+
+
+
+<p align="center">Made with ❤️ by the Cryshalis Team</p>
