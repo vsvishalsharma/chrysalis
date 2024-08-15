@@ -13,13 +13,7 @@ Cryshalis is a powerful and collaborative tool inspired by Microsoft Loop, desig
 With features like real-time chat, AI-based document review, and organization management, Cryshalis is your all-in-one solution for modern teamwork.
 
 <div align="center">
-  <div style="position: relative; width: 100%; height: 500px; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <img src="/public/one.png" alt="Background" style="position: absolute; width: 100%; height: 100%; object-fit: cover; z-index: 1;">
-    <img src="/public/two.png" alt="Top Left" style="position: absolute; width: 30%; top: 5%; left: 5%; z-index: 2; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <img src="/public/three.png" alt="Center" style="position: absolute; width: 40%; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 3; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <img src="/public/four.png" alt="Bottom Right" style="position: absolute; width: 30%; bottom: 5%; right: 5%; z-index: 2; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <img src="/public/five.png" alt="Bottom Left" style="position: absolute; width: 30%; bottom: 5%; left: 5%; z-index: 2; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  </div>
+  <img src="/public/final.png" alt="Cryshalis Screenshot" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
 </div>
 ## 🚀 Features
 
